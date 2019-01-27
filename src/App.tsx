@@ -1,5 +1,5 @@
 import * as React from "react";
-import Parent from "./props/Parent";
+import MyComponent from "./state/MyComponent";
 
 import "./App.css";
 
@@ -8,7 +8,7 @@ interface State {}
 
 class App extends React.Component<Props, State> {
   render() {
-    return <Parent />;
+    return <MyComponent />;
   }
 }
 
