@@ -12,7 +12,6 @@ export default class MyComponent extends Component<Props, State> {
 
   handleUpdate: any = () => {
     const { number } = this.state;
-
     // state 업데이트
     this.setState({
       number: number + 1
