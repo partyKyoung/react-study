@@ -1,5 +1,5 @@
 import * as React from "react";
-import ParentRef from "./ref/ParentRef";
+import Map from "./map/Map";
 
 import "./App.css";
 
@@ -8,7 +8,7 @@ interface State {}
 
 class App extends React.Component<Props, State> {
   render() {
-    return <ParentRef />;
+    return <Map />;
   }
 }
 
