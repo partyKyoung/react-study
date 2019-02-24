@@ -1,5 +1,5 @@
 import * as React from "react";
-import Map from "./map/Map";
+import MapState from "./map/MapState";
 
 import "./App.css";
 
@@ -8,7 +8,7 @@ interface State {}
 
 class App extends React.Component<Props, State> {
   render() {
-    return <Map />;
+    return <MapState />;
   }
 }
 
